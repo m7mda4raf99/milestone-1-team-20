@@ -15,6 +15,9 @@ const slotSchema = new mongoose.Schema({
     },
    which_slot :{ 
         type: Number
+    },
+    academic_member_id :{
+        type: String
     }
 })
  
